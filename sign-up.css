@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 150vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/signupbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.logo{
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+/* Form Section */
+
+.container-form{
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.form-section{
+    height: 100%;
+    width: 450px;
+    background-color: rgba(0,0,0,.75);
+    padding: 70px;
+    border-radius: 5px;
+}
+
+.sign-up-form{
+    height: 100%;
+}
+
+.sign-up-form h1{
+    color: white;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.input-form{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    color: #8C8C8C;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.form-button{
+    margin-top: 38px;
+    width: 100%;
+    height: 53px;
+    background-color: #E50914;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-checkbox-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.form-checkbox-section p{
+    color: #B3B3B3;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-checkbox-section .form-remember{
+    display: flex;
+}
+
+.form-checkbox-section .form-remember input{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.form-checkbox-section .form-help p{
+    cursor: pointer;
+}
+
+.form-checkbox-section .form-help p:hover{
+    text-decoration: underline;
+}
+
+.form-section .form-article{
+    margin-top: 80px;
+}
+
+.form-section .form-article h4{
+    color: #737373;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-section .form-article h4>span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-section .form-article h4>span:hover{
+    text-decoration: underline;
+}
+
+.form-section .form-article p{
+    margin-top: 15px;
+    color: #737373;
+    font-size: 13.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-section .form-article p>span{
+    color: #005FEB;
+    cursor: pointer;
+}
+
+.form-section .form-article p>span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0,0,0,.75);
+    margin-top: 114px;
+}
+
+.section-footer{
+    width: 1000px;
+    padding-top: 30px;
+}
+
+.section-footer .questions-part{
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+
+.section-footer .questions-part p>span:hover{
+    text-decoration: underline;
+}
+
+.section-footer .footer-list{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.section-footer .footer-list ul li{
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 15px;
+    letter-spacing: .4px;
+    cursor: pointer;
+}
+
+.section-footer .footer-list ul li:hover{
+    text-decoration: underline;
+}
+
+.section-footer .select-language{
+    color: #737373;
+    background-color: #000000;
+    height: 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px 10px;
+    padding-left: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+}

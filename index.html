@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Turkey - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="images/netflix-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Nunito+Sans:wght@500;600;1000&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e40525cac4.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <img class="logo" src="images/logo.png">
+                </li>
+                <li class="nav-btns">
+                    <select class="select-language" name="" id="">
+                        <option value="">&#xf57d; English</option>
+                        <option value="">&#xf57d; Türkçe</option>
+                    </select>
+                    <a href="sign-up.html">
+                        <button class="btn-signIn">Sign In</button>
+                    </a>
+                    
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contents Landing -->
+    <section class="content-section">
+        <div class="content-landing">
+            <div class="content-landing-articles">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <h2>Watch anywhere. Cancel anytime.</h2>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="send-email">
+                    <input class="input-mail" type="email" placeholder="Email address">
+                    <button class="btn-send-mail">Get Started ></button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Contents Part -->    
+        <div class="content-part">
+            <div class="content-articles">
+                <h1>Enjoy on your TV</h1>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="content-image">
+                <img src="images/content1.png">
+            </div>
+        </div>
+
+        <div class="content-part">
+            <div class="content-image">
+                <img src="images/content2.png">
+            </div>
+            <div class="content-articles">
+                <h1>Watch everywhere</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+        </div>
+
+        <div class="content-part">
+            <div class="content-articles">
+                <h1>Create profiles for kids</h1>
+                <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
+            </div>
+            <div class="content-image">
+                <img src="images/content3.png">
+            </div>
+        </div>
+
+        <div class="content-part">
+            <div class="content-image">
+                <img src="images/content4.png">
+            </div>
+            <div class="content-articles">
+                <h1>Download your shows to watch offline</h1>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div class="container-faq">
+            <div>
+                <h1 class="container-faq-title">Frequently Asked Questions</h1>
+            </div>
+            <div class="content-faq">
+                <div id="content-faq-title1" class="content-faq-title" onclick="togglePopup('popup-article1', document.getElementById('plus-icon'))">
+                    <p for="first">What is Netflix?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article1" class="content-faq-article">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p><br>
+                    <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                </div>
+            </div>
+            
+            <div class="content-faq">
+                <div id="content-faq-title2" class="content-faq-title" onclick="togglePopup('popup-article2', document.getElementById('plus-icon'))">
+                    <p for="first">How much does Netflix cost?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article2" class="content-faq-article">
+                    <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from 63.99 TL to 130.99 TL a month. No extra costs, no contracts.</p>
+                </div>
+            </div>
+            
+            <div class="content-faq">
+                <div class="content-faq-title" onclick="togglePopup('popup-article3', document.getElementById('plus-icon'))">
+                    <p for="first">Where can I watch?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article3" class="content-faq-article">
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p><br>
+                    <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                </div>
+            </div>
+
+            <div class="content-faq">
+                <div class="content-faq-title" onclick="togglePopup('popup-article4', document.getElementById('plus-icon'))">
+                    <p for="first">How do I cancel?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article4" class="content-faq-article">
+                    <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                </div>
+            </div>
+
+            <div class="content-faq">
+                <div class="content-faq-title" onclick="togglePopup('popup-article5', document.getElementById('plus-icon'))">
+                    <p for="first">What can I watch on Netflix?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article5" class="content-faq-article">
+                    <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </div>
+
+            <div class="content-faq">
+                <div class="content-faq-title" onclick="togglePopup('popup-article6', document.getElementById('plus-icon'))">
+                    <p for="first">Is Netflix good for kids?</p>
+                    <div id="plus-icon" class="plus-icon">+</div>
+                </div>
+                <div id="popup-article6" class="content-faq-article">
+                    <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</p><br>
+                    <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+                </div>
+            </div>
+
+            <div>
+                <p class="send-email-title">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="send-email">
+                    <input class="input-mail" type="email" placeholder="Email address">
+                    <button class="btn-send-mail">Get Started ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Part -->
+
+    <footer class="footer-section">
+        <div class="questions-part">
+            <p>Questions? Call <u>0850-390-7444</u></p>
+        </div>
+        <div class="footer-list">
+            <div>
+                <ul>
+                    <li>
+                        FAQ
+                    </li>
+                    <li>
+                        Investor Relations
+                    </li>
+                    <li>
+                        Terms of Use
+                    </li>
+                    <li>
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li> 
+                        Help Center 
+                    </li>
+                    <li>   
+                        Jobs
+                    </li>
+                    <li>
+                        Privacy
+                    </li>
+                    <li>
+                        Speed Test
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Account
+                    </li>
+                    <li>
+                        Redeem Gift Cards
+                    </li>
+                    <li>
+                        Cookie Preferences
+                    </li>
+                    <li>
+                        Legal Notices
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Media Center
+                    </li>
+                    <li>
+                        Ways to Watch
+                    </li>
+                    <li>
+                        Corporate Information
+                    </li>
+                    <li>
+                        Only on Netflix
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <select class="select-language" name="" id="">
+            <option value="">&#xf57d; English</option>
+            <option value="">&#xf57d; Türkçe</option>
+        </select>
+        <p class="brand">Netflix Turkey</p>
+    </footer>
+</body>
+</html>
